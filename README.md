@@ -14,7 +14,7 @@ connect (hostname, port) method establishes a TCP connection to hostname on port
 socket is open, you can read from it just like any other IO object. 
 
 
-# Client-Server communication architecture
+##  Client-Server communication architecture ##
 
 Implemented multithreaded server that accepts multiple client connections and
 multithreading is also implemented in the client side to send and receive messages.
@@ -24,19 +24,17 @@ the same time. Each component of such a program is referred to as a thread, and 
 defines a distinct route of execution. A Multithreaded Socket Server may connect with more than
 one client in the same network at the same time, as defined by Multithreaded Socket
 Programming.
-The Commands
-1.User command (Syntax- /users)
+## The Commands ##
+### 1.User command (Syntax- /users) ###
 This command requests list of users who are currently active from server and then it prints out
 their names
-2.Help command (Syntax-/help)
+### 2.Help command (Syntax-/help) ###
 This command prints out list of all supported commands and their behaviors
-3.Quit command (Syntax-/quit)
+### 3.Quit command (Syntax-/quit) ###
 It disconnects clients from the server. Before disconnecting, it sends message to the server that
 the client is disconnecting.
-4.Direct message command (Syntax-/dm username “message”)
+### 4.Direct message command (Syntax-/dm username “message”) ###
 This command sends the message between quotes to the specified user.
-5.Broadcast command (Syntax-/bc “message”)
-
-This command sends message between quotes to all other connected users.
-When a client disconnects without using /quit command, all the connected users get the message
+### 5.Broadcast command (Syntax-/bc “message”) ###
+This command sends message between quotes to all other connected users.When a client disconnects without using /quit command, all the connected users get the message
 that the specified user lost its connection.
