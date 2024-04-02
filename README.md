@@ -38,3 +38,6 @@ This command sends the message between quotes to the specified user.
 ### 5.Broadcast command (Syntax-/bc “message”) ###
 This command sends message between quotes to all other connected users.When a client disconnects without using /quit command, all the connected users get the message
 that the specified user lost its connection.
+
+<img width="693" alt="Screen Shot 2022-04-29 at 11 10 31 AM" src="https://github.com/Subhashini098/Chat-Server/assets/109629881/ce55b643-05a2-446e-ad24-941fe427aa22">
+
