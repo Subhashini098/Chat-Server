@@ -1,10 +1,6 @@
 # Chat-Server
 
-TCP/IP protocol is used for socket communication and TCP/IP is an abbreviation for
-Transmission Control Protocol/Internet Protocol, and it refers to a set of communication
-protocols used to connect network devices on the internet. TCP/IP is also used in a private
-computer network as a communications protocol (an intranet or extranet).
-We are working on server client communication. A server has a bind () method that connects it
+TCP/IP protocol is used for socket communication. I am working on server client communication. A server has a bind () method that connects it
 to a specific IP address and port so that it can listen for incoming requests on that address and
 port. Following that, a server has a listen () method that puts the server in listen mode. This
 enables the server to monitor incoming connections. Finally, a server has accept () and close ()
@@ -16,7 +12,7 @@ socket is open, you can read from it just like any other IO object.
 
 ##  Client-Server communication architecture ##
 
-Implemented multithreaded server that accepts multiple client connections and
+Implemented a multi-threaded server that accepts multiple client connections and
 multithreading is also implemented in the client side to send and receive messages.
 A thread is a set of such operations within a program that can run independently of other
 programs. A multithreaded program is made up of two or more components that can execute at
